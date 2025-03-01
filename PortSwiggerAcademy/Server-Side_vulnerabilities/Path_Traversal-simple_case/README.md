@@ -4,7 +4,7 @@ This lab contains a path traversal vulnerability in the display of product image
 To solve the lab, retrieve the contents of the /etc/passwd file.
 
 ## Walkthrough:
-### Manual path using browser only.
+### Manual path using browser only
 When we go to the main page, we can see a grid of items, in a kind of internet shop. 
 ![Main page](images/1.png)
 
@@ -53,8 +53,25 @@ All we need to do is downlad the image and open it in a text editor:
 And thanks to that, we can read the /etc/passwd file :sunglasses:
 
 ### Easier way -> Burp Suite
+Now we can go straight to the product details page. As we can see in the response, there is an image tag with source
+```javascript
+<img src="/image?filename=6.jpg">
+```
+![burp1](images/10.png)
 
+Let's send our request to the Repeater and try accessing the image.
+![burp2](images/11.png)
+Clearly we're getting an image. 
 
+So it's time for modifying the url.
+If we go to the 
+```javascript
+/image?filename=../../../etc/passwd
+```
+we can see a new response with interesting content :sunglasses:
+![burp3](images/12.png)
+
+As we can see, it was much easier using Burp, but that wasn't the only way!
 
 
 #### And finally, the lab has been solved :white_check_mark:
