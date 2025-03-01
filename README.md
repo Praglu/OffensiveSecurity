@@ -14,5 +14,5 @@ I will also try to add problems I'll face with Arch and solutions to them :relie
 
 ### Certificates:
 * Practical Junior Penetration Tester
-   Internal Pentesting -> Active Directory Compromise <img src="https://certifications.tcm-sec.com/wp-content/uploads/2024/08/PJPT-1.webp" width="65" title="PJPT">
+    - Internal Pentesting -> Active Directory Compromise <img src="https://certifications.tcm-sec.com/wp-content/uploads/2024/08/PJPT-1.webp" width="65" title="PJPT">
 
