@@ -46,7 +46,7 @@ As we can see here, there is no parameter Admin → let’s add it by adding
 ```javascript
 ; Admin=true
 ```
- to the Cookie header
+to the Cookie header.
 ![9](images/lab3/9.png)
 
 Finally we got access to the admin panel! Now all we need to do is deleting carlos.
