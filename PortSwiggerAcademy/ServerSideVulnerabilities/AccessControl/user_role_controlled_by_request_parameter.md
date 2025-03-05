@@ -42,7 +42,11 @@ After trying to access the Admin panel, we are being provided again with the inf
 Let’s try going to /admin URL, intercept the request, and edit the Admin=true parameter there.
 
 
-As we can see here, there is no parameter Admin → let’s add it by adding ; Admin=true to the Cookie header
+As we can see here, there is no parameter Admin → let’s add it by adding 
+```javascript
+; Admin=true
+```
+ to the Cookie header
 ![9](images/lab3/9.png)
 
 Finally we got access to the admin panel! Now all we need to do is deleting carlos.
