@@ -1,11 +1,8 @@
 # Hey there! :wave: Welcome to my Offensive Security journey! 
 This is a place where I would like to document my progress in learning offensive security. 
+I'll start with simply Web Security Academy and solutions to the labs -> later with more difficult labs, there will probably be videos too.
 ---
 ### My long-term goal is to become a **Cybersecurit Expert**, specialized in Offensive Security :feelsgood:
-
- <img src="https://edent.github.io/SuperTinyIcons/images/svg/arch_linux.svg" width="45" title="Arch Linux"> <img src="https://edent.github.io/SuperTinyIcons/images/svg/vim.svg" width="45" title="Vim">
-
-I will also try to add problems I'll face with Arch and solutions to them :relieved:
 
 ## Available labs:
 * [PortSwiggerAcademy](https://github.com/Praglu/OffensiveSecurity/tree/master/PortSwiggerAcademy)
